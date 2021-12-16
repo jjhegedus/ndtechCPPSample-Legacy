@@ -1,0 +1,23 @@
+{
+  "id": "c557121b-8992-4390-ac46-d4a040eb6c84",
+  "processor": "lap/types/processor/files_array_builder",
+  "input": {
+    "file": [
+      {
+        "path": "portal_icon/portal/portal.kmat",
+        "sha256": ""
+      }
+    ]
+  },
+  "output": {
+    "files": [
+      {
+        "path": "TUIg2hpf5gQ/portal.kmat.files",
+        "sha256": ""
+      }
+    ]
+  },
+  "options": [
+    
+  ]
+}

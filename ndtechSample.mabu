@@ -1,0 +1,88 @@
+LIBPATHS.debug_lumin_clang-3.8_aarch64 = c:/usr/localMagicLeap/lib
+STLIBS.debug_lumin_clang-3.8_aarch64 = \
+	boost_context \
+	boost_fiber \
+	boost_system \
+	boost_thread \
+	g3logMagicLeap
+
+LIBPATHS.debug_win_msvc-2017-15.9_x64 = \
+	$(BOOST_ROOT)/stage/lib \
+	c:/usr/local64/lib
+
+STLIBS.debug_win_msvc-2017-15.9_x64 = \
+	g3logger \
+	libboost_context-vc141-mt-gd-x64-1_71 \
+	libboost_fiber-vc141-mt-gd-x64-1_71 \
+	libboost_system-vc141-mt-gd-x64-1_71 \
+	libboost_thread-vc141-mt-gd-x64-1_71
+
+LIBPATHS.release_lumin_clang-3.8_aarch64 = c:/usr/localMagicLeap/lib
+STLIBS.release_lumin_clang-3.8_aarch64 = \
+	boost_context \
+	boost_fiber \
+	boost_system \
+	boost_thread \
+	g3logMagicLeap
+
+DEFS.lumin = \
+	GLM_FORCE_CXX14 \
+	ML_DEVICE \
+	USE_GLFW=0
+
+INCS.lumin = c:/usr/localMagicLeap/include
+DATAS = "./Content/Shaders/*.glsl" : "./"
+DEFS = \
+	NDTECH_ML \
+	NDTECH_SUPPORTS_BACK_OF_LEFT_HAND_GESTURE \
+	NDTECH_SUPPORTS_BACK_OF_RIGHT_HAND_GESTURE \
+	NDTECH_SUPPORTS_FINGER_TRACKING \
+	NDTECH_SUPPORTS_HAND_TRACKING
+
+INCS = \
+	../
+
+KIND = program
+OPTIONS = \
+	exceptions/on \
+	standard-c++/17 \
+	warn/on
+
+REFS = \
+	../ndtech/ndtech \
+	../ndtechComponents/ndtechComponents
+
+SRCS = \
+	main.cpp \
+	ndtechSampleApp.cpp \
+	pch.cpp
+
+USES = \
+	OpenGL \
+	ml_sdk \
+	stdc++
+
+DEFS.win = \
+	ML_WINDOWS \
+	NDTECH_WIN \
+	USE_GLFW=1
+
+INCS.win = \
+	$(BOOST_ROOT)/ \
+	c:/usr/local64/include/
+
+USES.win = \
+	glad \
+	glfw
+
+LIBPATHS.release_win_msvc-2017-15.9_x64 = \
+	$(BOOST_ROOT)/stage/lib \
+	c:/usr/local64/lib
+
+STLIBS.release_win_msvc-2017-15.9_x64 = \
+	g3logger \
+	libboost_context-vc141-mt-x64-1_71 \
+	libboost_fiber-vc141-mt-x64-1_71 \
+	libboost_system-vc141-mt-x64-1_71 \
+	libboost_thread-vc141-mt-x64-1_71
+

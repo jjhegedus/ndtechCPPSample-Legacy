@@ -1,0 +1,23 @@
+{
+  "id": "01e579e7-a3b9-44bd-ba21-a94bdba3d676",
+  "processor": "lap/types/processor/material_from_partial_kmats",
+  "input": {
+    "files": [
+      {
+        "path": "9wBGBNpb_IY/model.kmat.files",
+        "sha256": ""
+      }
+    ]
+  },
+  "output": {
+    "material": [
+      {
+        "path": "sNQMows_gig/model.kmat",
+        "sha256": ""
+      }
+    ]
+  },
+  "options": [
+    
+  ]
+}

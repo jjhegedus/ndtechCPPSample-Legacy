@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>032475cf-5f17-4d8f-8e8b-12e1536f8152</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>0f5fb3bf-09c0-4cb1-a463-cb2b3f8d0d10</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Shaders">
+      <UniqueIdentifier>d1e6469c-816f-43c7-adf1-05b2c87d3848</UniqueIdentifier>
+    </Filter>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="Source">
+      <UniqueIdentifier>{27d967de-4fa8-4ce6-8686-fdac14a72a28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Build">
+      <UniqueIdentifier>{86ffcc3e-b653-459a-aeca-e6cefb2c81e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{35b95229-d251-4bb1-9ea8-69a921b558c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ndtechSampleApp.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ndtechSampleApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="build.bat">
+      <Filter>Build</Filter>
+    </None>
+    <None Include="build.sh">
+      <Filter>Build</Filter>
+    </None>
+    <None Include="build_run.bat">
+      <Filter>Build</Filter>
+    </None>
+    <None Include="build_run.sh">
+      <Filter>Build</Filter>
+    </None>
+    <None Include="build_run_device.bat">
+      <Filter>Build</Filter>
+    </None>
+    <None Include="build_run_device.sh">
+      <Filter>Build</Filter>
+    </None>
+    <None Include="glad.comp">
+      <Filter>Build</Filter>
+    </None>
+    <None Include="glfw.comp">
+      <Filter>Build</Filter>
+    </None>
+    <None Include="ndtechSample.mabu">
+      <Filter>Build</Filter>
+    </None>
+    <None Include="ndtechSample.package">
+      <Filter>Build</Filter>
+    </None>
+    <None Include="Content\Shaders\fragment-shader.glsl">
+      <Filter>Content\Shaders</Filter>
+    </None>
+    <None Include="Content\Shaders\vertex-shader.glsl">
+      <Filter>Content\Shaders</Filter>
+    </None>
+    <None Include="packages.config">
+      <Filter>Build</Filter>
+    </None>
+    <None Include="Content\Shaders\vertex-shader-shared.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </None>
+    <None Include="ndtechSample_TemporaryKey.pfx">
+      <Filter>Build</Filter>
+    </None>
+    <None Include="Content\Shaders\void-vb-vertex-shader-shared.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </None>
+    <None Include="Content\Shaders\void-vb-frag.glsl">
+      <Filter>Content\Shaders</Filter>
+    </None>
+    <None Include="Content\Shaders\void-vb-vert.glsl">
+      <Filter>Content\Shaders</Filter>
+    </None>
+    <None Include="Content\Shaders\indirect-instanced-vertex-shader-shared.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="manifest.xml">
+      <Filter>Build</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Content\Shaders\vprt-vertex-shader.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\Shaders\pixel-shader.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\Shaders\vertex-shader.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\Shaders\geometry-shader.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\Shaders\indirect-instanced-vertex-shader.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\Shaders\vprt-indirect-instanced-vertex-shader.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\Shaders\void-vb-vertex-shader.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\Shaders\void-vb-vertex-shader-vprt.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <Filter>Build</Filter>
+    </AppxManifest>
+  </ItemGroup>
+</Project>

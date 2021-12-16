@@ -1,0 +1,23 @@
+{
+  "id": "adc450a0-7721-401b-9124-7b0305f25829",
+  "processor": "lap/types/processor/model_from_fbx",
+  "input": {
+    "model": [
+      {
+        "path": "portal_icon/portal/portal.fbx",
+        "sha256": ""
+      }
+    ]
+  },
+  "output": {
+    "model": [
+      {
+        "path": "4M0vu4UITsg/portal.fbx",
+        "sha256": ""
+      }
+    ]
+  },
+  "options": [
+    
+  ]
+}
